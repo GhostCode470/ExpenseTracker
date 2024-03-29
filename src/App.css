@@ -1,0 +1,48 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.0/css/bulma.min.css";
+:root {
+  font-family:Arial, Helvetica, sans-serif !important;
+  background-color: #ffffff;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 7em;
+}
+
+h1{
+  font-family:Arial, Helvetica, sans-serif !important;
+  color: #000c6b !important;
+  font-size: 50px !important;
+  text-align: center;
+}
+h1:hover{
+  color: rgb(35, 35, 255) !important;
+  text-decoration: double;
+  transition: 2s;
+}
+strong,p,li{
+  color: rgb(0, 0, 0);
+  
+}
+
+h2{
+  color:#000c6b;
+  font-size: 20px;
+  text-align: center;
+}
+h3{
+  font-size: 20px;
+  color: rgb(75, 75, 75);
+  text-decoration:underline;
+}
+input{
+  width: 15em !important;
+  margin-right: 10px;
+}
+
+select{
+  margin-right: 10px;
+}
+
+.total{
+  color: red !important;
+}
